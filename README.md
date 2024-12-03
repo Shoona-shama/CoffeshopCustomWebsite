@@ -6,7 +6,7 @@ custome design Website for the coffeshop Tchibo, made with Javascript html and C
 
 ## what you will need:
 
-1. download the html plugin live server from your IDE
+1. download the html plugin live server on your IDE
 2. check the images folder where all the images are imported from
 3. download the CSS plugin : PostCSS Language Support , for more optimized stylesheets
 4. download the plugin : Prettier - Code formatter (recommended)
