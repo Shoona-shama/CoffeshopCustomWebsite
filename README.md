@@ -2,7 +2,7 @@
 
 custome design Website for the coffeshop Tchibo, made with Javascript html and CSS.
 
-### disclaimer : this project is made for educational purposes only and may contain icons, links or images from owner. All rights belong to the respective owners
+### * disclaimer : this project is made for educational purposes only and may contain icons, links or images from owner. All rights belong to the respective owners
 
 ## what you will need:
 
