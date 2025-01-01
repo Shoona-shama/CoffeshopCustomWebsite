@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tchibo</title>
+    <link rel ="stylesheet" href="style.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://itunes.apple.com/de/app/tchibo/id583353777?mt=8" rel="stylesheet">
+    <link href="https://play.google.com/store/apps/details?id=de.tchibo.app&hl=de" rel="stylesheet">
+    <style>
+        .flex-container {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: row wrap;
+        }
+        .flex-container > div {
+        background-color: #f1f1f1;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+        }
+        </style>
+</head>
+<body>
+    <div class="content-wrapper">
+    <nav class = "navbar">
+     <div class = "navbar__container"> 
+      <a href ="/" id = "navbar__logo">
+        <div class="c-header2020-logo-image"></div>
+        Custom
+    </a>
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+            <a href="/index.html" class="navbar__links">Home</a>
+        </li>
+        <li class="navbar__item">
+            <a href=".vscode/tech.html" class="navbar__links">Tech</a>
+        </li>
+        <li class="navbar__item">
+            <a href=".vscode/Products.html" class="navbar__links">Products</a>
+        </li>
+        <li class="navbar__btn">
+            <a href="/" class="button">Sign Up</a>
+        </li>
+        <li class="navbar__item">
+            <a href=".vscode/shoppingCart.html" class="navbar__links">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+        </li>
+        <li class="navbar__item">
+            <a href=".vscode/storeFinder.html" class="navbar__links">
+                <i class="fas fa-map-marker-alt"></i>
+            </a>
+        </li>
+      </ul>
+    </div>
+    </nav>
+    <dialog id="translationDiaog">
+        <p>would you like to translate to English ?</p>
+        <form method="dialog">
+            <button value = "yes">Yes</button>
+            <button value = "no">No</button>
+        </form>
+    </dialog>
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <div class="main__img--container  flex-container  " >  
+
+                    <button class="main__btn" onclick="window.location.href='.vscode/Damen.html'">
+                    <img src="images/womensclothes.png" alt="Damen" class="main__img">
+                    <span class="btn__text">Damen</span>
+                    </button>
+                
+                    <button class="main__btn" onclick="window.location.href='.vscode/Herren.html'">
+                    <img src="images/Screenshot 2024-11-18 120150.png" alt="Herren" class="main__img">
+                    <span class="btn__text">Herren</span>
+                    </button> 
+            
+                    <button class="main__btn" onclick="window.location.href='.vscode/Kinder.html'">
+                    <img src="images/childrenClothes.png" alt="Kinder" class="main__img">
+                    <span class="btn__text">Kinder</span>
+                    </button> 
+            
+                    <button class="main__btn" onclick="window.location.href='.vscode/HomeAccessoire.html'">
+                    <img src="images/wohnendeko.jpg" alt="HomeAccessoire" class="main__img">
+                    <span class="btn__text">HomeAccessoire</span>
+                    </button>   
+
+                </div>  
+            </div>
+        </div>  
+        <h4>Unsere Themenwelten</h4>
+        <div class="second__container">
+            <h5>Machen Sie es sich schön!</h5> 
+            <p> Unser Onlineshop bietet eine Vielzahl unterschiedlicher Produkte für jeden Geschmack !</p> 
+            <img src="images/christmas-ball.svg" alt="christmas-ball" style="width: 40px; height: 40px; justify-content: center; align-items: center; height: 10vh; margin: 0; margin-left: 590px;">
+            <img src="images/christmas-decoration.svg" alt="christmas-decoration" style="width: 40px; height: 40px;  justify-content: center; align-items: center; height: 10vh; margin: 0;">
+            <img src="images/christmas-tree.svg" alt="christmas-tree" style="width: 40px; height: 40px;  justify-content: center; align-items: center; height: 10vh; margin: 0;">
+            <img src="images/christmas-badge.svg" alt="christmas-badge" style="width: 40px; height: 40px;  justify-content: center; align-items: center; height: 10vh; margin: 0; ">
+            <img src="images/christmas-tree.svg" alt="christmas-tree" style="width: 40px; height: 40px;  justify-content: center; align-items: center; height: 10vh; margin: 0;">
+            <img src="images/christmas-decoration.svg" alt="christmas-decoration" style="width: 40px; height: 40px;  justify-content: center; align-items: center; height: 10vh; margin: 0;">
+            <img src="images/christmas-ball.svg" alt="christmas-ball" style="width: 40px; height: 40px;  justify-content: center; align-items: center; height: 10vh; margin: 0; margin-right: 580px;">
+            
+            <div class="flex-container-2">
+
+                <button class="flex__btn" onclick="window.location.href='.vscode/Products.html'">
+                <img src="images/heise-kaffemachine.jpg" alt="heise-kaffemachine">
+                <span class="btn__text">heise-kaffemachine</span>
+                </button>
+                <button class="flex__btn" onclick="window.location.href='.vscode/Products.html'">
+                <img src="images/kuchel-freunde.jpg" alt="kuchel-freunde">
+                <span class="btn__text">kuchel-freunde</span>
+                </button>
+                <button class="flex__btn" onclick="window.location.href='.vscode/Products.html'">
+                <img src="images/mehr-still-im-office.jpg" alt="mehr-still-im-office">
+                <span class="btn__text">office</span>
+                </button>
+                <button class="flex__btn" onclick="window.location.href='.vscode/Products.html'">
+                <img src="images/piste.jpg" alt="piste">
+                <span class="btn__text">piste</span>
+                </button>
+                <button class="flex__btn" onclick="window.location.href='.vscode/Products.html'">
+                <img src="images/christmas-leuchte.jpg" alt="christmas-leuchte">
+                <span class="btn__text">christmas-leuchte</span>
+                </button> 
+            </div>
+        </div>
+    <script src = "index.js" ></script>
+    <script src="app.js"></script>
+    <footer>
+        <div class="footer-container">
+            <!-- Apps Section -->
+            <div class="footer-section">
+                <div class="footer-heading">Tchibo Apps:</div>
+                <a href="https://itunes.apple.com/de/app/tchibo/id583353777?mt=8" target="_blank" rel="noreferrer" title="iOS">
+                    <i class="fa-brands fa-apple"></i>
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=de.tchibo.app&hl=de" target="_blank" rel="noreferrer" title="Android">
+                    <i class="fa-brands fa-android"></i>
+                </a>
+            </div>
+            <!-- Social Media Section -->
+            <div class="footer-section">
+                <p>You can find us on: 
+                    <a href="https://www.instagram.com/tchibo/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/tchibo.de" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.xing.com/pages/tchibo" target="_blank">
+                        <i class="fa-brands fa-xing"></i>
+                    </a>
+                    <a href="https://www.youtube.com/user/tchibo" target="_blank">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
