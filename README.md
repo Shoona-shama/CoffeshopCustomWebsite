@@ -12,7 +12,7 @@ custome design Website for the coffeshop Tchibo, made with Javascript html and C
 4. download the plugin : Prettier - Code formatter (recommended)
 5. download the plugin : Tailwind CSS IntelliSense (recommended)
 
-
+### ps: check the Master branch
 
 
    
